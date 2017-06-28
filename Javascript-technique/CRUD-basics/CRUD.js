@@ -17,13 +17,16 @@ const Bottle = (function(window) {
 
   // Constructor
   function Bottle(data) {
+    // Pass data to init methods for validation
     this.init(data);
   }
 
   // Public methods in Bottle.prototype
+  // This works because Bottle.prototype is already been in memory when I write the function statement above
   Bottle.prototype = {
-    constructor: Bottle,
+    constructor: Bottle,  // This is recommended to write, when you have to validate where this instance came from.
     init(data) {
+      // Takes only Array type data
       if (Array.isArray(data)) {
         state = data;
       }
