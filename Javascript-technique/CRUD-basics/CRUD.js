@@ -53,7 +53,6 @@ const Bottle = (function(window) {
       return state;
     }
   }
-
   // returns the constructor function of Bottle
   return Bottle;
 
