@@ -1,7 +1,7 @@
 class Model {
   constructor(options) {
     this.state = [];
-    this.options = {
+    this.config = {
       required: false,
       default: [],
       types: 'anyr'
@@ -26,7 +26,11 @@ class Model {
   }
 
   // Create
-  create() {}
+  create(data) {
+    if(this.config.types !== 'any'){
+
+    }
+  }
   // Read
   get() {}
   // Update
