@@ -1,0 +1,13 @@
+{
+  "name": "ES6",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "webpack -w"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-loader": "^7.1.1",
+    "babel-preset-env": "^1.5.2",
+    "webpack": "^3.0.0"
+  }
+}
