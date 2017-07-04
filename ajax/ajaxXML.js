@@ -12,8 +12,8 @@
         xhr.send(null);
 
         // Remove event listener OR just disable the button
-        print_btn.removeEventListener('click', renderAjaxData, true);
-        // print_btn.setAttribute('disabled', 'disabled');
+        // print_btn.removeEventListener('click', renderAjaxData, true);
+        print_btn.setAttribute('disabled', 'disabled');
     };
 
 
@@ -22,10 +22,27 @@
 
         if (xhr.status === 200 && xhr.readyState === 4) {
 
-            console.log(xhr.responseText);
+            let doc = xhr.responseXML;
+            const dataCollection = [];
 
-            // setTimeout to see Loading effect
-            data_zone.innerHTML = rederDataBinding(xhr); // innerText 로 html 값들을 받으면, 렌더링 되지 않고 html 코드가 나옴
+            let results = doc.querySelectorAll('user > results');
+            [].forEach.call(results, function (result) {
+
+                let name = {
+                    first: result.querySelector('name > first').textContent,
+                    last: result.querySelector('name > last').textContent
+                };
+                let email = result.querySelector('email').textContent;
+                let gender = result.querySelector('gender').textContent;
+                let user = {
+                    name: `${name.first} ${name.last}`,
+                    email,
+                    gender
+                };
+                dataCollection.push(user);
+            });
+
+            data_zone.innerHTML = renderTable(dataCollection);
 
         } else if (xhr.status > 400) {
             data_zone.innerHTML = "Connection Failed";
@@ -43,23 +60,33 @@
         }
     };
 
-    let rederDataBinding = (xhr) => {
-        let status = xhr.status;
-        let url = xhr.responseURL;
-        let type = xhr.responseType;
-        let text = xhr.responseText;
+    let renderTable = collection => {
 
-        let frag = document.createDocumentFragment();
-        let frag_root = document.createElement('div');
-        frag.appendChild(frag_root);
-        frag_root.innerHTML = text;
+        let renderTemplate = document.querySelector('#user-table-template').innerHTML;
+        // console.log(renderTemplate);
+        let tbody = renderTemplate.split('<tbody></tbody>');
+        let printTemplate = `${tbody[0]}<tbody class="tbody">`;
 
-        frag_root.querySelector('.status').textContent = status;
-        frag_root.querySelector('.url').textContent = url;
-        frag_root.querySelector('.type').textContent = type === '' ? 'HTML' : '';
-        frag_root.querySelector('.code').textContent = text;
+        collection.forEach(function (user, index) {
+            let n = index + 1;
+            n = n < 10 ? '0' + n : n;
 
-        return frag_root.innerHTML;
+            printTemplate += `
+                <tr class="tr">
+                    <td class="td num">${n}</td>
+                    <td class="td name">${user.name}</td>
+                    <td class="td gender">${user.gender}</td>
+                    <td class="td email">${user.email}</td>
+                    <td class="td etc"></td>
+                </tr>
+            `;
+
+        });
+
+        printTemplate += `</tbody>${tbody[1]}`;
+
+        return printTemplate;
     }
+
     print_btn.addEventListener('click', renderAjaxData, true);
 }

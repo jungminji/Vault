@@ -19,12 +19,11 @@
 
     // Response
     let printAjaxData = () => {
-
         if (xhr.status === 200 && xhr.readyState === 4) {
 
             console.log(xhr.status);
             console.log(xhr.readyState);
-            
+
             data_zone.innerHTML = rederDataBinding(xhr); // innerText 로 html 값들을 받으면, 렌더링 되지 않고 html 코드가 나옴
 
         } else if (xhr.status > 400) {
