@@ -1,0 +1,369 @@
+{
+  "results": [{
+    "gender": "male",
+    "name": {
+      "title": "mr",
+      "first": "mathys",
+      "last": "sommers"
+    },
+    "location": {
+      "street": "8556 nicolaasweg",
+      "city": "vianen",
+      "state": "limburg",
+      "postcode": 97247
+    },
+    "email": "mathys.sommers@example.com",
+    "login": {
+      "username": "whitefrog588",
+      "password": "rsalinas",
+      "salt": "Ad3tDfzH",
+      "md5": "7c0f3df6209ea84742edfbd6a78c6da8",
+      "sha1": "6e7b14b2cd16842c96a2ca2d252ac5f8ac92d647",
+      "sha256": "7ba31c275796d77a501f08816ba174326ad6a23a01f917837dc26b50312b654c"
+    },
+    "dob": "1987-01-08 10:24:52",
+    "registered": "2013-06-13 12:12:38",
+    "phone": "(602)-731-7081",
+    "cell": "(358)-968-7856",
+    "id": {
+      "name": "BSN",
+      "value": "04268528"
+    },
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/men/85.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/men/85.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/men/85.jpg"
+    },
+    "nat": "NL"
+  }, {
+    "gender": "female",
+    "name": {
+      "title": "miss",
+      "first": "tamara",
+      "last": "baumann"
+    },
+    "location": {
+      "street": "7169 jahnstraße",
+      "city": "schaumburg",
+      "state": "schleswig-holstein",
+      "postcode": 12642
+    },
+    "email": "tamara.baumann@example.com",
+    "login": {
+      "username": "beautifuldog767",
+      "password": "guitar",
+      "salt": "Qh64f9bO",
+      "md5": "7c347b1c5d20f8e6934f5033d5db1917",
+      "sha1": "3bf3c4896518e64a236e68734a027abb5087a380",
+      "sha256": "3d601f2aa91651e1fd782594a14b7e1f8ebd7d46c0233b03fa1f3f7d57a51733"
+    },
+    "dob": "1963-12-18 05:37:21",
+    "registered": "2008-04-27 06:59:26",
+    "phone": "0450-1646292",
+    "cell": "0178-3771546",
+    "id": {
+      "name": "",
+      "value": null
+    },
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/women/96.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/women/96.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/women/96.jpg"
+    },
+    "nat": "DE"
+  }, {
+    "gender": "male",
+    "name": {
+      "title": "mr",
+      "first": "jonathan",
+      "last": "olsen"
+    },
+    "location": {
+      "street": "1270 nørrebrogade",
+      "city": "brøndby strand",
+      "state": "nordjylland",
+      "postcode": 58011
+    },
+    "email": "jonathan.olsen@example.com",
+    "login": {
+      "username": "brownmeercat228",
+      "password": "cliff",
+      "salt": "RUNByzj6",
+      "md5": "5a5478c9d6c75c62859b31746dd12033",
+      "sha1": "ca0dc3e07a55d9efcb6a9ee2c3adf640a49b2726",
+      "sha256": "0d0d2d8897935f5a73e0ecdc4bfc5d75c9bacaff4edec008019fdc8f6d1674e6"
+    },
+    "dob": "1972-01-24 09:52:39",
+    "registered": "2007-04-19 02:48:05",
+    "phone": "80017305",
+    "cell": "08659535",
+    "id": {
+      "name": "CPR",
+      "value": "980372-3512"
+    },
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/men/38.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/men/38.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/men/38.jpg"
+    },
+    "nat": "DK"
+  }, {
+    "gender": "male",
+    "name": {
+      "title": "mr",
+      "first": "william",
+      "last": "wenzel"
+    },
+    "location": {
+      "street": "2269 jahnstraße",
+      "city": "greifswald",
+      "state": "niedersachsen",
+      "postcode": 30769
+    },
+    "email": "william.wenzel@example.com",
+    "login": {
+      "username": "goldenleopard336",
+      "password": "bryant",
+      "salt": "z8BAB0b8",
+      "md5": "9208488f9b41c27260a99969efbf6c22",
+      "sha1": "7a58eac27865b2b92f0142a736fde5bebdf0bae3",
+      "sha256": "8f5dead7c0f4523dd1ad8f44b9065789748a369332ed10f1c0578c17c63f0615"
+    },
+    "dob": "1944-09-24 10:26:39",
+    "registered": "2013-08-14 16:06:28",
+    "phone": "0941-6150010",
+    "cell": "0173-6529190",
+    "id": {
+      "name": "",
+      "value": null
+    },
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/men/42.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/men/42.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/men/42.jpg"
+    },
+    "nat": "DE"
+  }, {
+    "gender": "male",
+    "name": {
+      "title": "mr",
+      "first": "howard",
+      "last": "palmer"
+    },
+    "location": {
+      "street": "5652 white oak dr",
+      "city": "ventura",
+      "state": "wyoming",
+      "postcode": 63029
+    },
+    "email": "howard.palmer@example.com",
+    "login": {
+      "username": "heavyladybug622",
+      "password": "151515",
+      "salt": "TEQ5wJjU",
+      "md5": "9afcb6db8efcd45e7d1cb8156a1560ea",
+      "sha1": "71e6731c1e4215b8f1b7092e5b0b32a33626b8b7",
+      "sha256": "090582f59741ac2032240ba9f92fbdaa65bbd850982635378003e802385af35d"
+    },
+    "dob": "1950-01-17 02:20:00",
+    "registered": "2016-01-16 06:35:03",
+    "phone": "(423)-180-3109",
+    "cell": "(554)-039-7509",
+    "id": {
+      "name": "SSN",
+      "value": "570-42-7183"
+    },
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/men/49.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/men/49.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/men/49.jpg"
+    },
+    "nat": "US"
+  }, {
+    "gender": "female",
+    "name": {
+      "title": "ms",
+      "first": "yasemin",
+      "last": "pektemek"
+    },
+    "location": {
+      "street": "6098 talak göktepe cd",
+      "city": "hakkâri",
+      "state": "erzincan",
+      "postcode": 24494
+    },
+    "email": "yasemin.pektemek@example.com",
+    "login": {
+      "username": "bigostrich400",
+      "password": "gilligan",
+      "salt": "itedUE2k",
+      "md5": "abd241f9d5d98548ec3b969c540335eb",
+      "sha1": "2ad936943a905538e87d644ac7695f09352d6926",
+      "sha256": "3afb1817c96145df7c5956a1678425fe7b2a6245250c2a41983de04b81aa8949"
+    },
+    "dob": "1975-09-02 03:32:20",
+    "registered": "2010-09-13 10:38:56",
+    "phone": "(275)-562-9923",
+    "cell": "(700)-088-1156",
+    "id": {
+      "name": "",
+      "value": null
+    },
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/women/1.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/women/1.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/women/1.jpg"
+    },
+    "nat": "TR"
+  }, {
+    "gender": "male",
+    "name": {
+      "title": "mr",
+      "first": "heldo",
+      "last": "nogueira"
+    },
+    "location": {
+      "street": "5805 rua mato grosso ",
+      "city": "franca",
+      "state": "rio grande do sul",
+      "postcode": 89010
+    },
+    "email": "heldo.nogueira@example.com",
+    "login": {
+      "username": "redkoala768",
+      "password": "festival",
+      "salt": "aEQgfRiC",
+      "md5": "e0a8af380dcaeba22cb308b223ee21c2",
+      "sha1": "2b78ef2b45c3e21f1694740a22ad6aef23497471",
+      "sha256": "29d9f107d7e21a28f94bee24af40166e60358effc5609aaf2ed3acdc724c2c24"
+    },
+    "dob": "1974-02-12 18:06:52",
+    "registered": "2008-03-24 06:32:42",
+    "phone": "(51) 9733-1049",
+    "cell": "(01) 2936-0887",
+    "id": {
+      "name": "",
+      "value": null
+    },
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/men/8.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/men/8.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/men/8.jpg"
+    },
+    "nat": "BR"
+  }, {
+    "gender": "female",
+    "name": {
+      "title": "miss",
+      "first": "lærke",
+      "last": "madsen"
+    },
+    "location": {
+      "street": "2611 kongelundsvej",
+      "city": "bælum",
+      "state": "midtjylland",
+      "postcode": 60024
+    },
+    "email": "lærke.madsen@example.com",
+    "login": {
+      "username": "redcat428",
+      "password": "altima",
+      "salt": "FIgCxnt1",
+      "md5": "5aefa9e122cf09cf3638fb9fbffcd16c",
+      "sha1": "068f2de7f7141fbc2ad6285fc19d6cb838d81175",
+      "sha256": "24fc8962a937af8929bae9ae823e3a1b5e47c4cd6afd05a589f2adb87b542dd7"
+    },
+    "dob": "1957-10-13 03:54:29",
+    "registered": "2013-06-17 05:24:12",
+    "phone": "94430976",
+    "cell": "74705286",
+    "id": {
+      "name": "CPR",
+      "value": "807390-0510"
+    },
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/women/83.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/women/83.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/women/83.jpg"
+    },
+    "nat": "DK"
+  }, {
+    "gender": "male",
+    "name": {
+      "title": "mr",
+      "first": "norman",
+      "last": "armstrong"
+    },
+    "location": {
+      "street": "6203 patrick street",
+      "city": "oranmore",
+      "state": "cork",
+      "postcode": 42213
+    },
+    "email": "norman.armstrong@example.com",
+    "login": {
+      "username": "greengorilla474",
+      "password": "softail",
+      "salt": "cRDTZiTL",
+      "md5": "4f9136c1d21cc4a5aaa94305fa2f9052",
+      "sha1": "47b108177e2e9bf5ae4c2fc375dc468bc7ccceb4",
+      "sha256": "72c177ba932fc80fc66c53797bebbf81d30982336c9b5ecdd856374c7828ab47"
+    },
+    "dob": "1984-03-12 20:58:07",
+    "registered": "2011-04-02 15:12:43",
+    "phone": "041-320-7373",
+    "cell": "081-135-2684",
+    "id": {
+      "name": "PPS",
+      "value": "0309044T"
+    },
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/men/58.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/men/58.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/men/58.jpg"
+    },
+    "nat": "IE"
+  }, {
+    "gender": "female",
+    "name": {
+      "title": "mrs",
+      "first": "laura",
+      "last": "shaw"
+    },
+    "location": {
+      "street": "8259 kingsway",
+      "city": "chichester",
+      "state": "lothian",
+      "postcode": "KK5 7TN"
+    },
+    "email": "laura.shaw@example.com",
+    "login": {
+      "username": "bigbear296",
+      "password": "trixie",
+      "salt": "owZH495a",
+      "md5": "c50f8ee708eb2aa643011d7a63352094",
+      "sha1": "296b2eaf9729a06a6b22678cf870e313978a8549",
+      "sha256": "394f41e1ca549ba4366aabd6363c880534acd24a1868a1d4f755948373838098"
+    },
+    "dob": "1972-08-17 12:46:33",
+    "registered": "2016-02-06 09:39:38",
+    "phone": "016977 1384",
+    "cell": "0715-336-648",
+    "id": {
+      "name": "NINO",
+      "value": "AB 10 02 87 H"
+    },
+    "picture": {
+      "large": "https://randomuser.me/api/portraits/women/61.jpg",
+      "medium": "https://randomuser.me/api/portraits/med/women/61.jpg",
+      "thumbnail": "https://randomuser.me/api/portraits/thumb/women/61.jpg"
+    },
+    "nat": "GB"
+  }],
+  "info": {
+    "seed": "31962606c66a7eda",
+    "results": 10,
+    "page": 1,
+    "version": "1.1"
+  }
+}

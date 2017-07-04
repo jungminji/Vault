@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ajax</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.2/css/bulma.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container is-fluid">
+        <div class="columns">
+            <div class="column is-8 is-offset-2">
+                <button type="button" class="button is-primary print-ajax-btn">Call Ajax Data</button>
+                <div class="box data-zone">
+                    Waiting for ajax connection...
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--<script src="./ajaxNative.js"></script>-->
+    <script src="./ajaxXML.js"></script>
+    <script type="text/x-tempalte" id="user-table-template">
+        <table class="table user-table">
+            <caption class="sr-only">Random user table</caption>
+            <thead class="thead">
+                <tr class="tr">
+                    <th scope="col">No.</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Gender</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Etc.</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </script>
+</body>
+
+</html>
