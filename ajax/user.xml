@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<user>
+	<results>
+		<gender>male</gender>
+		<name>
+			<title>monsieur</title>
+			<first>dorian</first>
+			<last>martinez</last>
+		</name>
+		<location>
+			<street>6818 rue des chartreux</street>
+			<city>bremblens</city>
+			<state>valais</state>
+			<postcode>2784</postcode>
+		</location>
+		<email>dorian.martinez@example.com</email>
+		<login>
+			<username>lazygoose954</username>
+			<password>cecile</password>
+			<salt>TKXyQpqQ</salt>
+			<md5>fcb2edb9e335743f7c602a61b67118c4</md5>
+			<sha1>d0f4e62e6f04f51127b6286d1ea3275430c734cc</sha1>
+			<sha256>d7c37c70af4eac2c61d6f1ac034f25d65dd92331da5f60f7b12fced1f9ee82d2</sha256>
+		</login>
+		<dob>1963-08-29 22:53:14</dob>
+		<registered>2003-09-30 00:37:15</registered>
+		<phone>(154)-775-8644</phone>
+		<cell>(619)-491-2454</cell>
+		<id>
+			<name>AVS</name>
+			<value>756.NSNL.LRDJ.24</value>
+		</id>
+		<picture>
+			<large>https://randomuser.me/api/portraits/men/41.jpg</large>
+			<medium>https://randomuser.me/api/portraits/med/men/41.jpg</medium>
+			<thumbnail>https://randomuser.me/api/portraits/thumb/men/41.jpg</thumbnail>
+		</picture>
+		<nat>CH</nat>
+	</results>
+	<info>
+		<seed>cae5054472cd0657</seed>
+		<results>1</results>
+		<page>1</page>
+		<version>1.1</version>
+	</info>
+</user>
