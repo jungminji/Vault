@@ -5,8 +5,6 @@
     let printBtn = document.querySelector('.print-ajax-btn');
     let dataZone = document.querySelector('.data-zone');
 
-
-
     // Request
     let request = () => {
         $.get('people.lib.json', function (dataPath) {
@@ -26,7 +24,6 @@
 
         let result = data.results;
         let markUp = '';
-        // let toPrint = [];
 
         // Info
         [].forEach.call(result, function (item, index) {
