@@ -1,0 +1,23 @@
+{
+  "name": "playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "node-sass --output-style expanded sass/style.sass css/style.css --watch --source-map true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jungminji/playground.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jungminji/playground/issues"
+  },
+  "homepage": "https://github.com/jungminji/playground#readme",
+  "devDependencies": {
+    "node-sass": "^4.5.3"
+  }
+}
